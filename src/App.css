@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.first_Text_Color{
+    color: black;
+}
+.second_Text_Color{
+    color: white;
+}
+.third_Text_Color{
+    color: #FFBD39;
+}
+
+.first_bg{
+    background-color: black;
+}
+.second_bg{
+    background-color: white;
+}
+.third_bg{
+    background-color: #FFBD39;
+}
+
+.first_Text_Color_hover:hover{
+    color: black;
+}
+
+.second_Text_Color_hover:hover{
+    color: white;
+}
+.third_Text_Color_hover:hover{
+    color: #FFBD39;
+}
+
+.first_bg_hover:hover{
+    background-color: black;
+}
+.second_bg_hover:hover{
+    background-color: white;
+}
+.third_bg_hover:hover{
+    background-color: #FFBD39;
+}
+
+html {
+  scroll-behavior: smooth;
+}
