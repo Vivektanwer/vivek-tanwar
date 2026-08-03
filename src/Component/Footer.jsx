@@ -50,7 +50,7 @@ const Footer = () => {
              </div>
               </div>
             </div>
-            <p className='text-center text-gray-400 mt-8 text-lg'>Copyright ©2025 All rights reserved | This Portfolio is made with <i className=" bi bi-heart-fill"></i> by Vivek Tanwar</p>
+            <p className='text-center text-gray-400 mt-8 text-lg'>Copyright ©2026 All rights reserved | This Portfolio is made with <i className=" bi bi-heart-fill"></i> by Vivek Tanwar</p>
           </div>
         </div>
     </>
