@@ -35,9 +35,12 @@ const AboutSection = () => {
                         </ul>
                     </div>
                     <div className='my-10 md:my-10'>
-                        <Link to={'/'} className='text-sm rounded-full third_bg px-6 py-4 font-semibold border border-gray-300'>
+                        <a
+                            href="/VivekV2.pdf"
+                            download="Vivek_Tanwar_CV.pdf" 
+                            className='text-sm rounded-full third_bg px-6 py-4 font-semibold border border-gray-300'>
                             Download CV
-                        </Link>
+                        </a>
                     </div>
                     </div>
                 </div>
