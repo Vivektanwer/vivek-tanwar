@@ -26,10 +26,10 @@ const ContactSection = () => {
             url:"mailto:vivektanwer648@gmail.com",
         },
         {
-            icons:"bi bi-globe",
-            title:"PORTFOLIO",
+            icons:"bi bi-linkedin",
+            title:"LINKEDIN",
             description:"Vivek Tanwar",
-            url:"https://vivek-tanwar.vercel.app/",
+            url:"https://www.linkedin.com/in/vivek-tanwar-developer/",
         },
     ]
     
