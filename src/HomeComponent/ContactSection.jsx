@@ -27,9 +27,9 @@ const ContactSection = () => {
         },
         {
             icons:"bi bi-globe",
-            title:"WEBSITE",
-            description:"www.example.com",
-            url:"/",
+            title:"PORTFOLIO",
+            description:"vivek-tanwar",
+            url:"https://vivek-tanwar.vercel.app/",
         },
     ]
     
