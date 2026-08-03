@@ -69,3 +69,11 @@ app.use('*all', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server started at http://localhost:${port}`)
 })
+
+if (!process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`Server started at http://localhost:${port}`)
+  })
+}
+
+export default app
