@@ -15,11 +15,11 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className='w-full first_bg'>
+    <div className='w-full first_bg' id='home'>
     <div className='max-w-7xl mx-auto p-4 md:p-20 '>
       <div className='flex flex-col md:flex-row items-center justify-between'>
-        <div className='flex-1 text-center md:text-left'>
-          <p className='text-lg third_Text_Color'>HELLO!</p>
+        <div className='flex-1 text-center md:text-left' >
+          <p className='text-lg third_Text_Color mt-20 md:mt-0' >HELLO!</p>
           <h1 className='text-4xl md:text-7xl font-semibold second_Text_Color my-2 md:my-4 leading-tight'>
             <strong>I'm <span className='third_Text_Color'>{slides[currentSlide].name}</span></strong>
           </h1>
@@ -34,7 +34,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className='flex-1 mt-4 md:mt-0'>
-          <img src={slides[currentSlide].image} alt='Vivek Tanwar' className='w-full md:w-[82%] md:h-160 mx-auto' />
+          <img src={slides[currentSlide].image} alt='Vivek Tanwar' className='w-full md:w-[82%] md:h-160 mx-auto hidden md:block' />
         </div>
       </div>
       <div className='flex justify-center mt-4'>

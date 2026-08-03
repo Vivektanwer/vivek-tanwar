@@ -25,7 +25,7 @@ const Footer = () => {
               <div className='md:w-1/4 p-2'>
               <p className='text-2xl second_Text_Color font-semibold'><strong>Links</strong></p>
               <div className='mt-4 flex flex-col gap-2'>
-              <Link to={'/'} className='text-lg text-gray-400 '> <i className="  bi bi-arrow-right font-bold"></i> Home</Link>
+              <a href={'#home'} className='text-lg text-gray-400 '> <i className="  bi bi-arrow-right font-bold"></i> Home</a>
               <a href={'#about'} className='text-lg text-gray-400 '> <i className="  bi bi-arrow-right font-bold"></i> About</a>
               <a href={'#services'} className='text-lg text-gray-400 '> <i className="  bi bi-arrow-right font-bold"></i> Services</a>
               <a href={'#projects'} className='text-lg text-gray-400 '> <i className="  bi bi-arrow-right font-bold"></i> Projects</a>

@@ -30,11 +30,11 @@ const cards = [
 
   return (
     <>
-        <div className='w-full first_bg'>
+        <div className='w-full first_bg' id='resume'>
             <div className='max-w-7xl mx-auto p-4 sm:p-8 md:p-20'>
             <div className='text-center'>
                 <h2 className='text-8xl font-bold text-gray-900 md:block hidden'>Resume</h2>
-                <p className='text-6xl second_Text_Color font-bold md:mt-[-100px]' id='resume'>Resume</p>
+                <p className='text-6xl second_Text_Color font-bold md:mt-[-100px]' >Resume</p>
                 <p className='text-gray-400 text-lg  md:max-w-4xl mx-auto my-4 md:my-8'>Results-driven Frontend Developer with 2+ year of experience building responsive, high-performance web
 applications using React.js, JavaScript, HTML5, CSS3, and Tailwind CSS. Proven track record of delivering
 4+ production websites with focus on performance optimization, SEO, and user experience. Strong problem-
