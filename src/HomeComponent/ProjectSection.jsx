@@ -29,8 +29,8 @@ const ProjectSection = () => {
                             <img src='/sdgm-technologies.webp' className='w-full lg:h-80 object-cover bg-gray-900 third_bg_hover'/>
                         </Link></div>
                         <div className='lg:flex-1 w-full  bg-gray-900'>
-                            <Link to='https://www.brightpathschool.com/'>
-                            <img src='/rcs-brand-rise.webp' className='w-full lg:h-80 object-cover bg-gray-900 third_bg_hover'/>
+                            <Link to='https://brandsmashzone.online/'>
+                            <img src='/brandsmashzone.webp' className='w-full lg:h-80 object-cover bg-gray-900 third_bg_hover'/>
                         </Link></div>
                     </div>
             </div>

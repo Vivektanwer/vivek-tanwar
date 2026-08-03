@@ -22,7 +22,7 @@ const AboutSection = () => {
                     <h1 className="text-5xl sm:text-6xl md:text-8xl text-gray-900 hidden md:block" ><strong>About</strong></h1>
                     <div className='md:px-4'>
                     <h2 className='text-3xl sm:text-4xl md:text-5xl second_Text_Color mt-2 md:mt-[-90px]' id='about'><strong>About Me</strong></h2>
-                    <p className='text-gray-400 my-4 md:my-8 text-justify text-sm sm:text-base'>Hi, I’m Vivek — a Frontend Developer with 1+ year of experience building responsive and high-performance websites using React.js, JavaScript, HTML, CSS, and Tailwind CSS. I enjoy creating clean UI, reusable components, and optimizing performance to deliver smooth user experiences.</p>
+                    <p className='text-gray-400 my-4 md:my-8 text-justify text-sm sm:text-base'>Hi, I’m Vivek — a Frontend Developer with 2+ year of experience building responsive and high-performance websites using React.js, JavaScript, HTML, CSS, and Tailwind CSS. I enjoy creating clean UI, reusable components, and optimizing performance to deliver smooth user experiences.</p>
                     
                     <div>
                         <ul className="space-y-2 text-gray-400 text-sm sm:text-base">

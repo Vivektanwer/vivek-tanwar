@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='flex flex-wrap md:gap-0 gap-4'>
               <div className='md:w-1/4 p-2'>
               <p className='text-2xl second_Text_Color font-semibold'><strong>About Us</strong></p>
-              <p className='text-lg text-gray-400'>Hi, I’m Vivek — a Frontend Developer with 1+ year of experience building responsive and high-performance websites using React.js, JavaScript, HTML, CSS, and Tailwind CSS. I enjoy creating clean UI, reusable components, and optimizing performance to deliver smooth user experiences.</p>
+              <p className='text-lg text-gray-400'>Hi, I’m Vivek — a Frontend Developer with 2+ year of experience building responsive and high-performance websites using React.js, JavaScript, HTML, CSS, and Tailwind CSS. I enjoy creating clean UI, reusable components, and optimizing performance to deliver smooth user experiences.</p>
               <div className='flex gap-4 mt-8'>
               <Link to={'https://www.linkedin.com/in/vivek-tanwar-developer/'}><div className='rounded-full p-4 w-17 text-center bg-gray-900'>
                 <i className="text-2xl second_Text_Color bi bi-linkedin"></i>
