@@ -25,12 +25,12 @@ const HeroSection = () => {
           </h1>
           <p className='text-2xl md:text-4xl second_Text_Color my-2 md:my-4'>{slides[currentSlide].desc}</p>
           <div className='flex gap-4 justify-center md:justify-start my-4'>
-            <button type='button' className='text-sm my-4 rounded-full third_bg px-4 py-2 font-semibold border border-gray-300'>
-              Hire Me
-            </button>
-            <button type='button' className='text-sm my-4 rounded-full second_Text_Color border border-gray-300 px-4 py-2 font-semibold'>
+            <a href="#contact"> <button type='button' className='text-sm my-4 rounded-full third_bg px-4 py-2 font-semibold border border-gray-300'>
+              Contact
+            </button></a>
+            <a href="#projects"> <button type='button' className='text-sm my-4 rounded-full second_Text_Color border border-gray-300 px-4 py-2 font-semibold'>
               MY WORKS
-            </button>
+            </button></a>
           </div>
         </div>
         <div className='flex-1 mt-4 md:mt-0'>
